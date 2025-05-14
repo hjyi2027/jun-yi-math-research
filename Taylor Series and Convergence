@@ -1,0 +1,28 @@
+# Taylor Series and Convergence
+
+## 1. Introduction
+Brief explanation of what a Taylor series is and why it's important.
+
+## 2. Definitions and Basics
+- Taylor series formula
+- Radius of convergence
+- Example: Taylor series for eˣ, sin(x), ln(1+x)
+
+## 3. Visualization and Error
+- How the approximation improves with higher-degree polynomials
+- Graphs comparing function vs. Taylor approximation
+- Error term (briefly)
+
+## 4. Deeper Questions
+- Why does the Taylor series of ln(x) fail at x=0?
+- What happens outside the radius of convergence?
+
+## 5. Python/Desmos Simulation (Optional)
+- Plot f(x) and its Taylor approximations for eˣ or sin(x)
+
+## 6. Reflection
+- What did I learn?
+- Why is this interesting?
+
+## 7. References
+- Link to notes, videos, or books you used
