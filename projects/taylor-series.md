@@ -1,5 +1,7 @@
 # Taylor Series and Convergence
 
+This project explores how Taylor series can be used to approximate functions, how convergence works, and where Taylor approximation succeed or fail.
+
 ## 1. Introduction
 Brief explanation of what a Taylor series is and why it's important.
 
