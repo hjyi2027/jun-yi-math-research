@@ -3,7 +3,8 @@
 This project explores how Taylor series can be used to approximate functions, how convergence works, and where Taylor approximation succeed or fail.
 
 ## 1. Introduction
-Brief explanation of what a Taylor series is and why it's important.
+Taylor series allows us to approximate a function using its derivatives at particular points.
+
 
 ## 2. Definitions and Basics
 - Taylor series formula
