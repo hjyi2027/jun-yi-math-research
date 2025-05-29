@@ -7,7 +7,12 @@ Taylor series are approximations around a local point that turn non-polynomial f
 
 
 ## 2. Definitions and Basics
-- Taylor series formula
+The Taylor series of a function $f(x)$ centered at $a$ is given by:
+$$
+f(x) = \sum_{n=0}^\infty \frac{f^{(n)}(a)}{n!}(x - a)^n
+$$
+
+
 - Radius of convergence
 - Example: Taylor series for eˣ, sin(x), ln(1+x)
 
