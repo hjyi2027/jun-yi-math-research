@@ -3,7 +3,7 @@
 This project explores how Taylor series can be used to approximate functions, how convergence works, and where Taylor approximation succeed or fail.
 
 ## 1. Introduction
-Taylor series allows us to approximate a function using its derivatives at particular points.
+Taylor series are approximation that allows us to turn non-polynomial functions into polynomial functions using its deratives.
 
 
 ## 2. Definitions and Basics
@@ -29,5 +29,3 @@ Taylor series allows us to approximate a function using its derivatives at parti
 
 ## 7. References
 - Link to notes, videos, or books you used
-
-Add initial Taylor Series project file
