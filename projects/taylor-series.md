@@ -8,7 +8,8 @@ Taylor series are approximations around a local point that turn non-polynomial f
 
 ## 2. Definitions and Basics
 The Taylor series of a function $f(x)$ centered at $a$ is given by:
-f(x) = Σ [f⁽ⁿ⁾(a)/n!] · (x - a)ⁿ
+![Taylor Series Formula](images/taylor-series-formula.png)
+
 
 - Radius of convergence
 - Example: Taylor series for eˣ, sin(x), ln(1+x)
