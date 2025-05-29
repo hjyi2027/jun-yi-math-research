@@ -3,7 +3,7 @@
 This project explores how Taylor series can be used to approximate functions, how convergence works, and where Taylor approximation succeed or fail.
 
 ## 1. Introduction
-Taylor series are approximation that allows us to turn non-polynomial functions into polynomial functions using its deratives.
+Taylor series are approximations around a local point that turn non-polynomial functions into polynomial functions using all orders of the function's derivatives at that point.
 
 
 ## 2. Definitions and Basics
