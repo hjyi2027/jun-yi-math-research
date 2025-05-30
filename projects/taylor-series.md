@@ -23,21 +23,15 @@ Mclaurin series for (lim n-> ∞):
 
 1. $f(x)$ = e^x
 
-$e^x$ = 1 + x + x^2/2! + x^3/3! + x^4/4! .... + x^n/n! (no convergence range since the limit of the series converges to 0)
-
-
-
+$e^x$ = 1 + x + x^2/2! + x^3/3! + x^4/4! .... + x^n/n! (the series converges for all real numbers since the series as a whole converges for every $x$)
 
 2. $f(x)$ = sin(x)
 
-$sin(x)$ = 0 + x - x^3 + x^5 - x^7 ..... (no convergence range because the limit of Mclaurin polynomial is 0)
-
-
-
+$sin(x)$ = 0 + x - x^3 + x^5 - x^7 ..... (The series converges for all $x$ based on applying the ratio test, which shows the radius of convergence is infinite)
 
 3. $f(x)$ = ln(x+1)
 
-$ln(x+1)$ = 0 + x - x^2/2 + x^3/3 - x^4/4 ...... (convergence range: [-1,1])
+$ln(x+1)$ = 0 + x - x^2/2 + x^3/3 - x^4/4 ...... (convergence range: (-1,1])
 
 
 ## 3. Visualization and Error
