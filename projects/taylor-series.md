@@ -17,7 +17,7 @@ When $a$ = 0,
 We use the Maclaurin series; series identical to Taylor series with $a$ evaluated as 0.
 
 
-- Radius of convergence
+Radius of convergence is the range where the series equals the function’s values. Outside the radius of convergence, the series diverges from the function’s behavior.
 - Example: Taylor series for eˣ, sin(x), ln(1+x)
 
 ## 3. Visualization and Error
