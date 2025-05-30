@@ -18,7 +18,27 @@ We use the Maclaurin series; series identical to Taylor series with $a$ evaluate
 
 
 Radius of convergence is the range where the series equals the function’s values. Outside the radius of convergence, the series diverges from the function’s behavior.
-- Example: Taylor series for eˣ, sin(x), ln(1+x)
+
+Mclaurin series for (lim n-> ∞):
+
+1. $f(x)$ = e^x
+
+$e^x$ = 1 + x + x^2/2! + x^3/3! + x^4/4! .... + x^n/n! (no convergence range since the limit of the series converges to 0)
+
+
+
+
+2. $f(x)$ = sin(x)
+
+$sin(x)$ = 0 + x - x^3 + x^5 - x^7 ..... (no convergence range because the limit of Mclaurin polynomial is 0)
+
+
+
+
+3. $f(x)$ = ln(x+1)
+
+$ln(x+1)$ = 0 + x - x^2/2 + x^3/3 - x^4/4 ...... (convergence range: [-1,1])
+
 
 ## 3. Visualization and Error
 - How the approximation improves with higher-degree polynomials
