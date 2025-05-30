@@ -12,6 +12,11 @@ The Taylor series of a function $f(x)$ centered at $a$ is given by:
 ![Taylor Series Formula](images/taylor-series-formula.png)
 
 
+SPECIAL CASE:
+When $a$ = 0,
+We use the Maclaurin series; series identical to Taylor series with $a$ evaluated as 0.
+
+
 - Radius of convergence
 - Example: Taylor series for eˣ, sin(x), ln(1+x)
 
