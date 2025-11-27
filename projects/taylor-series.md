@@ -85,8 +85,12 @@ The important qualitative facts are:
 These observations connect the visual behavior from the graphs with the theoretical concept of error. Near the center and inside the interval of convergence, increasing the degree makes the error small, which is why the graphs almost overlap. Outside that interval, the error does not vanish, which explains why the polynomial and the original function can look completely different there.
 
 ## 4. Deeper Questions
-- Why does the Taylor series of ln(x) fail at x=0?
-- What happens outside the radius of convergence?
+### 4.1 Why can't we Taylor-expand at "bad" points? (example: ln x at x = 0)
+
+### 4.2 What really happens outside the radius of convergence?
+
+### 4.3 When Taylor series converge but fail to represent the function (non-analytic examples)
+
   
 ## 5. Reflection
 - What did I learn?
