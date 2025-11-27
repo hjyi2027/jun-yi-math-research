@@ -48,10 +48,15 @@ For this section, I use all three functions from section 2 as a running example.
 1. The polynomial becomes a better match near the center.
 2. The interval around the center where the polynomial stays close to the original function becomes wider.
 
+$e^x$:
+![Animated Taylor approximation of e raised to x](images/taylor-series-of-e^x.gif)
 
-![Animated Taylor approximation of e raised to x](/images/taylor-series-of-e^x.gif)
+$sin(x)$:
 ![Animated Taylor approximation of sin(x)](images/taylor-series-of-sin(x).gif)
+
+$ln(x)$:
 ![Animated Taylor approximation of ln(x)](images/taylor-series-of-ln(x).gif)
+
 
 If I look at the degree 1 polynomial (a tangent line approximation), it matches the function only very close to the center; moving even a little away, the line drifts off quickly. A degree 2 or degree 3 polynomial already follows the curvature of the function much better and stays close over a noticeably larger interval. For degree 5 or higher, the graph of the polynomial and the graph of the function often overlap so well near the center that it is hard to distinguish them by eye.
 
