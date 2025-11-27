@@ -45,6 +45,10 @@ To see what a Taylor polynomial is really doing, it is useful to fix one functio
 
 For this section, I use all three functions from section 2 as a running example. As I increase the degree, two things happen:
 
+(images/taylor series of e^x.gif)
+(images/taylor series of sin(x).gif)
+(images/taylor series of ln(x).gif)
+
 1. The polynomial becomes a better match near the center.
 2. The interval around the center where the polynomial stays close to the original function becomes wider.
 
