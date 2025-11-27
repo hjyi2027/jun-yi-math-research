@@ -87,13 +87,10 @@ These observations connect the visual behavior from the graphs with the theoreti
 ## 4. Deeper Questions
 - Why does the Taylor series of ln(x) fail at x=0?
 - What happens outside the radius of convergence?
-
-## 5. Python/Desmos Simulation (Optional)
-- Plot f(x) and its Taylor approximations for eˣ or sin(x)
-
-## 6. Reflection
+  
+## 5. Reflection
 - What did I learn?
 - Why is this interesting?
 
-## 7. References
+## 6. References
 - Link to notes, videos, or books you used
