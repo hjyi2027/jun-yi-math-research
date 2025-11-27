@@ -97,4 +97,4 @@ These observations connect the visual behavior from the graphs with the theoreti
 - Why is this interesting?
 
 ## 6. References
-- Link to notes, videos, or books you used
+- Link to notes, videos, or books I used
