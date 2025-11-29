@@ -85,13 +85,67 @@ The important qualitative facts are:
 These observations connect the visual behavior from the graphs with the theoretical concept of error. Near the center and inside the interval of convergence, increasing the degree makes the error small, which is why the graphs almost overlap. Outside that interval, the error does not vanish, which explains why the polynomial and the original function can look completely different there.
 
 ## 4. Deeper Questions
-### 4.1 Why can't we Taylor-expand at "bad" points? (example: ln x at x = 0)
 
-### 4.2 What really happens outside the radius of convergence?
+So far I have treated Taylor and Maclaurin series as powerful tools that approximate “nice” functions very well. In this section, I look more closely at the limits of this idea: what happens at “bad” points like the origin for `ln(x)`, what it really means to go outside the radius of convergence, and why not every smooth function is determined by its Taylor series.
 
-### 4.3 When Taylor series converge but fail to represent the function (non-analytic examples)
+### 4.1 Why `ln(x)` fails at 0, but `ln(1 + x)` works
 
-  
+A Taylor series centered at a point `a` is built out of the function and all of its derivatives evaluated at `a`. For that to even make sense, two basic conditions must hold:
+
+1. The function has to be defined at `a`.
+2. The function has to be differentiable (in fact, infinitely differentiable) in some neighborhood around `a`.
+
+The natural logarithm `ln(x)` immediately breaks the first condition at `x = 0`: it is only defined for `x > 0`. There is no way to evaluate `ln(0)` or its derivatives at `0`, so a Taylor series centered at `0` is not just “bad” or “divergent” – it is simply not defined. In complex analysis language, `x = 0` is a singularity for `ln(x)`.
+
+In contrast, the function `ln(1 + x)` behaves very differently at `x = 0`. It is defined at `x = 0`, differentiable there, and in fact infinitely differentiable on an interval containing `0` (for example, on `(-1, 1]`). This is why a Maclaurin series for `ln(1 + x)` exists and why I was able to compute its radius of convergence. The difference between `ln(x)` and `ln(1 + x)` at the origin is really a difference in domain and smoothness:
+
+- `ln(x)` has a “hole” at `x = 0` and cannot be expanded there.
+- `ln(1 + x)` is perfectly smooth at `x = 0` and admits a convergent Maclaurin series.
+
+This illustrates a general point: Taylor series are local objects. They only make sense at points where the function is well behaved and where all derivatives exist. If the function has a singularity or a discontinuity at the center, there is no Taylor series to talk about.
+
+### 4.2 What really happens outside the radius of convergence
+
+For a power series centered at a point `a`, the ratio or root test usually gives a condition of the form
+
+`|x - a| < R`
+
+where `R` is called the radius of convergence. Inside this open interval, the infinite series in powers of `(x - a)` converges. At this stage it is tempting to think of `R` as just a technical detail from a test, but it has a very concrete meaning:
+
+- Inside `|x - a| < R`, the Taylor series behaves well. The partial sums (the Taylor polynomials) get closer and closer to the true function, and the error tends to zero as the degree goes to infinity.
+- Outside `|x - a| < R`, the Taylor series fails as an infinite sum. The sequence of partial sums does not converge; it may blow up, oscillate, or just fail to settle to any finite value. In this region, the Taylor series does not represent the function at all.
+- At the points where `|x - a| = R`, the ratio or root test is inconclusive, so each endpoint has to be checked separately using other convergence tests.
+
+The Maclaurin series for `ln(1 + x)` is a concrete example of this behavior. Using the ratio test, I found that the series converges when `|x| < 1`, which means the radius of convergence is `R = 1` and the open interval of guaranteed convergence is `(-1, 1)`. Testing the endpoints shows that:
+
+- At `x = 1`, the series becomes an alternating harmonic series, which converges.
+- At `x = -1`, the series collapses to (essentially) the harmonic series with all terms the same sign, which diverges.
+
+So in this case, the full interval of convergence is `(-1, 1]`. Inside this interval, the Taylor polynomials for `ln(1 + x)` approximate the function better and better as the degree increases. Outside this interval, the infinite series in powers of `x` does not converge at all, even though individual low-degree Taylor polynomials might still look reasonable on a graph for a while.
+
+This explains the behavior I saw in the visualizations: the region where high-degree Taylor polynomials track the function closely matches the interval where the series actually converges. Once I move beyond that region, no amount of increasing the degree will make the Taylor series represent the function correctly as an infinite sum.
+
+### 4.3 When Taylor series converge but do not equal the function
+
+So far, the examples in this project have been “nice” in the sense that when the Taylor series converges, it converges to the original function on the whole interval of convergence. Functions like `e^x` and `sin(x)` are like this: they are called analytic, meaning that they are equal to their Taylor series on some interval around the center.
+
+However, not every smooth function is analytic. There are functions that are infinitely differentiable at a point, but whose Taylor series at that point does not represent the function except at a single point. In other words:
+
+- All derivatives exist at the center.
+- The Taylor series built from those derivatives converges.
+- But the limit of that series is not the original function on any open interval around the center.
+
+One classic example (from more advanced analysis) is a function that is defined to be `0` at the center and away from the center decays extremely fast, so that every derivative at the center is equal to `0`. The Taylor series at that point is then just the zero series. The series converges everywhere, but it only matches the function at the single point where it was constructed; away from that point, the actual function is not zero.
+
+This phenomenon shows that:
+
+- Being infinitely differentiable is not enough to guarantee that a function equals its Taylor series.
+- To be fully captured by its Taylor expansion, a function needs to be analytic, not just smooth.
+
+From the point of view of approximation, this is important. In many standard cases (like exponentials, trigonometric functions, and logarithms away from their singularities), the Taylor series is a very reliable tool. But there are also functions where the Taylor series hides most of the function’s behavior instead of revealing it. Understanding where Taylor series work, where they fail because of domain and singularities, and where they fail even in the presence of infinite differentiability is a key step toward seeing the limits of this technique.
+
+In the context of this project, the examples with `ln(1 + x)` already show the impact of domain and radius of convergence. The more pathological smooth examples belong to a deeper level of analysis, but they indicate that Taylor series are not a universal language for all functions, only for a special class of very well-behaved ones.
+
 ## 5. Reflection
 - What did I learn?
 - Why is this interesting?
