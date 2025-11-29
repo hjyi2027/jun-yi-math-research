@@ -146,9 +146,24 @@ From the point of view of approximation, this is important. In many standard cas
 
 In the context of this project, the examples with `ln(1 + x)` already show the impact of domain and radius of convergence. The more pathological smooth examples belong to a deeper level of analysis, but they indicate that Taylor series are not a universal language for all functions, only for a special class of very well-behaved ones.
 
-## 5. Reflection
-- What did I learn?
-- Why is this interesting?
+## 5. Reflection and Future Directions
+
+This project started as a review of Taylor and Maclaurin series but quickly turned into something deeper. At the beginning, I mainly thought of Taylor series as a neat trick: expand a function into a polynomial, plug in numbers, and get approximations. Working through definitions, examples, convergence, and graphs forced me to confront how many hidden conditions are sitting behind that “trick.”
+
+One of the main ideas that became clearer was the role of the **center** and the **radius of convergence**. Formally, I already knew that power series converge only on some interval, but it felt like a technical detail from the ratio test. After computing the radius of convergence for specific series and then matching that interval to what I saw on the graphs, it became obvious that this radius is not just an abstract number: it literally marks where the infinite Taylor series is allowed to represent the function. Inside that region, higher-degree Taylor polynomials really do behave like better and better approximations. Outside it, increasing the degree does not fix the approximation; the infinite series itself simply fails.
+
+Another conceptual shift came from thinking about **“good” vs “bad” points**. The example of `ln(x)` at `x = 0` versus `ln(1 + x)` at `x = 0` made it clear that Taylor series are not a global language; they are local expansions around points where the function is well behaved. If the function has a singularity or is not even defined at the center, there is nothing to expand. On the other hand, a function like `ln(1 + x)` can be perfectly smooth at the origin but still have a limited radius of convergence because of a singularity farther away. The boundary of analyticity shows up directly in the convergence behavior of the Taylor series.
+
+The discussion of functions that are infinitely differentiable but not equal to their Taylor series hinted at an even sharper distinction between **smooth** and **analytic** functions. In standard calculus problems, these two notions are often blurred together, but they are not the same. A function can have derivatives of all orders and still not be determined by its Taylor series. I did not construct explicit examples in this project, but just knowing such functions exist makes the usual “expand into a Taylor series” step feel less automatic and more conditional.
+
+There are several natural directions to extend this project:
+
+- Study Taylor series from the point of view of **complex analysis**, where analyticity and singularities are even more tightly controlled, and where the geometry of the complex plane constrains the radius of convergence.
+- Compare Taylor series to other approximation tools, such as **Fourier series** or **Chebyshev polynomials**, and see how the notion of “best approximation” changes depending on the setting.
+- Look at how Taylor series appear inside **numerical methods** (for example, error estimates in numerical integration or differential equation solvers) and how theoretical error bounds translate to practical accuracy.
+- Explore explicit examples of smooth but non-analytic functions and analyze why their Taylor series fail to capture their behavior beyond a single point.
+
+Overall, this project shifted my view of Taylor series from a computational technique into a more structural object: a local power-series “snapshot” of a function that works extremely well in the right setting and fails completely outside it. In future projects, I plan to revisit Taylor series in more advanced contexts and connect them with other areas of analysis and approximation theory.
 
 ## 6. References
 - Link to notes, videos, or books I used
