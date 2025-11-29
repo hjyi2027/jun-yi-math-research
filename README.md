@@ -5,4 +5,5 @@ Welcome! I'm a 11th-grade student in love with mathematics. This repository cont
 ## Projects
 
 - [Taylor Series and Convergence](projects/taylor-series.md)
+- [Basel Sum](project/basel-sum.md)
 - [To Be Added...]
