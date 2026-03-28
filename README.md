@@ -10,7 +10,7 @@ This repository documents an ongoing exploration that began with a simple questi
 
 ### 1. Taylor Series and Convergence
 Foundations of power series approximation, radius of convergence, and the distinction between smooth and analytic functions.
-- [Full writeup](taylor-series/taylor-series.md)
+- [Full writeup](taylor-series-and-convergence.md)
 
 ### 2. The Basel Problem and the Zeta Function
 Multiple approaches to evaluating zeta(2) = pi^2/6, computational verification of zeta values, and exploration of patterns in zeta(2k) for positive integers k.
