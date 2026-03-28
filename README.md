@@ -19,6 +19,7 @@ Multiple approaches to evaluating zeta(2) = pi^2/6, computational verification o
 ### 3. Computational Experiments
 Python scripts for numerically investigating convergence rates, zeta function values, and pattern detection in number-theoretic sums.
 - [Zeta function computations](projects/zeta-experiment.py)
+- [Sample output](projects/zeta-experiment-output.txt)
 
 ### 4. Open Questions and Directions
 Problems and patterns encountered during this exploration that I have not yet resolved.
