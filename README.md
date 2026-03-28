@@ -10,19 +10,19 @@ This repository documents an ongoing exploration that began with a simple questi
 
 ### 1. Taylor Series and Convergence
 Foundations of power series approximation, radius of convergence, and the distinction between smooth and analytic functions.
-- [Full writeup](taylor-series-and-convergence.md)
+- [Full writeup](projects/taylor-series-and-convergence.md)
 
 ### 2. The Basel Problem and the Zeta Function
 Multiple approaches to evaluating zeta(2) = pi^2/6, computational verification of zeta values, and exploration of patterns in zeta(2k) for positive integers k.
-- [Full writeup](basel-problem/basel-problem.md)
+- [Full writeup](projects/basel-sum.md)
 
 ### 3. Computational Experiments
 Python scripts for numerically investigating convergence rates, zeta function values, and pattern detection in number-theoretic sums.
-- [Zeta function computations](computations/zeta_experiments.py)
+- [Zeta function computations](projects/zeta-experiment.py)
 
 ### 4. Open Questions and Directions
 Problems and patterns encountered during this exploration that I have not yet resolved.
-- [Open questions](open-questions.md)
+- [Open questions](projects/open-questions.md)
 
 ## Background
 
@@ -31,5 +31,5 @@ I am a high school junior with a perfect score on the AMC-12 and coursework in m
 ## Tools
 
 - LaTeX for mathematical typesetting
-- Python (mpmath, matplotlib, numpy) for computation
-- SageMath for symbolic verification
+- Python (math, fractions) for computation
+- GitHub for version control and documentation
