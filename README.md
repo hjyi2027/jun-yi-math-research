@@ -26,7 +26,7 @@ Problems and patterns encountered during this exploration that I have not yet re
 
 ## Background
 
-I am a high school junior with a perfect score on the AMC-12 and coursework in multivariable calculus and linear algebra (Stanford Pre-Collegiate). I attended AwesomeMath Summer Program twice. This repository represents self-directed work outside of any course or program.
+I am a high school junior with a perfect score on the AMC-12 and coursework in multivariable calculus and linear algebra from Stanford University. I attended AwesomeMath Summer Program twice. This repository represents self-directed work outside of any course or program.
 
 ## Tools
 
