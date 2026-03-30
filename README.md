@@ -173,7 +173,7 @@
 <div class="about">
     <h2>Background</h2>
     <p>
-        I am a junior at Seoul International School (South Korea). My mathematical background includes a perfect score on the AMC-12, coursework in multivariable calculus and linear algebra through Stanford Pre-Collegiate, and two summers at the AwesomeMath Summer Program. I participate in HMMT and lead a competitive math team of USAMO qualifiers and IMO medalists competing in Purple Comet, the Stanford Math Tournament, and the Penn Math Contest.
+        I am a junior at Seoul International School. My mathematical background includes a perfect score on the AMC-12, coursework in multivariable calculus and linear algebra from Stanford University, and two summers at the AwesomeMath Summer Program. I currently lead a competitive math team of USAMO Honourable Mentions and IMO medalists competing in various online math competitions.
     </p>
     <p style="margin-top: 12px;">
         I am currently seeking research mentorship in analytic number theory, particularly in areas related to integer partitions, q-series, and special values of L-functions.
