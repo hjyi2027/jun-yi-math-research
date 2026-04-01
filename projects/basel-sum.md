@@ -96,7 +96,7 @@ This bound shows the error decreases like $N^{1-s}$, which tightens rapidly as $
 
 ## 4. Computational Experiments
 
-See `zeta-experiment-output.txt` for the code behind these observations.
+See `zeta-experiment.py` for the code behind these observations.
 
 ### 4.1 Verifying zeta values numerically
 
