@@ -180,7 +180,7 @@
 </div>
  
 <footer>
-    Hyunjun (Jun) Yi &nbsp;|&nbsp; Seoul International School &nbsp;|&nbsp; 
+    Hyunjun (Jun) Yi &nbsp;|&nbsp; hyunjun.yi27@stu.siskorea.org &nbsp;|&nbsp; 
     <a href="https://github.com/hjyi2027/jun-yi-math-research" style="color: #999; text-decoration: none; border-bottom: 1px solid #ccc;">GitHub</a>
 </footer>
  
